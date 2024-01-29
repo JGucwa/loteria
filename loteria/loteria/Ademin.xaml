@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="loteria.Ademin">
+    <ContentPage.Content>
+        <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+            <Button BackgroundColor="Black" WidthRequest="400" Margin="20,0,20,0" Text="Wylosuj" TextColor="White"/>
+            <Button BackgroundColor="Black" WidthRequest="400" Margin="20,0,20,0" Text="Każdy wygrywa" TextColor="White"/>
+            <Label x:Name="Wygrany"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

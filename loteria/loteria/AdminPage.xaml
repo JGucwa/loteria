@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="loteria.AdminPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Button Text="Wylosuj wygranego" x:Name="lotery" Clicked="lotery_Clicked" WidthRequest="300" BackgroundColor="Gray" FontSize="20" TextColor="WhiteSmoke"></Button>
+            <Button Text="Kazdy wygrywa" x:Name="allWin" Clicked="allwin_Clicked" WidthRequest="300" BackgroundColor="Gray" FontSize="20" TextColor="WhiteSmoke"></Button>
+            <Label FontSize="12" Text="" x:Name="loterydate"></Label>
+            <Label FontSize="12"  Text="" x:Name="wonCount"></Label>
+            <Label FontSize="12"  Text="" x:Name="wonCode"></Label>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

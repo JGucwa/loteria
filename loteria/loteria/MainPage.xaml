@@ -5,9 +5,9 @@
              Title="Strona Glowna">
 
     <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
-        <Button BackgroundColor="Black" WidthRequest="400" Margin="20,0,20,0" Text="GRACZ" TextColor="White"/>
-        <Button BackgroundColor="Black" WidthRequest="400" Margin="20,0,20,0" Text="ADMIN" TextColor="White"/>
-        <Button BackgroundColor="Black" WidthRequest="400" Margin="20,0,20,0" Text="WYNIKI" TextColor="White"/>
+        <Button BackgroundColor="Black" WidthRequest="400" Margin="20,0,20,0" Text="GRACZ" TextColor="White" Clicked="Player_nav_Clicked"/>
+        <Button BackgroundColor="Black" WidthRequest="400" Margin="20,0,20,0" Text="ADMIN" TextColor="White" Clicked="Admin_nav_Clicked"/>
+        <Button BackgroundColor="Black" WidthRequest="400" Margin="20,0,20,0" Text="WYNIKI" TextColor="White" Clicked="Result_nav_Clicked"/>
     </StackLayout>
 
 </ContentPage>

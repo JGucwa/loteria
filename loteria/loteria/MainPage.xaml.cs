@@ -14,5 +14,19 @@ namespace loteria
         {
             InitializeComponent();
         }
+        private void Player_nav_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new PlayerPage());
+        }
+
+        private void Admin_Nnav_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new AdminPage());
+        }
+
+        private void Result_nav_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new WinPage());
+        }
     }
 }

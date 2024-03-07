@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="loteria.PlayerPage">
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical" HorizontalOptions="Center" VerticalOptions="Center">
+            <Entry x:Name="firstname" Placeholder="Imie" WidthRequest="300"></Entry>
+            <Entry x:Name="surname" Placeholder="Nazwisko"  WidthRequest="300"></Entry>
+            <Entry x:Name="email" Placeholder="Email"  WidthRequest="300" Keyboard="Email"></Entry>
+            <Entry x:Name="code" Placeholder="Kod"  WidthRequest="300" Keyboard="Numeric"></Entry>
+            <Button x:Name="applied" Text="Aplikuj" Clicked="applied_Clicked" WidthRequest="200" FontSize="20" BackgroundColor="Gray" TextColor="WhiteSmoke"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
